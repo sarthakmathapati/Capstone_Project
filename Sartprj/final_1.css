@@ -1,0 +1,461 @@
+body {
+    width: 100%;
+    background-color: #ECF6FE;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.nav-main {
+    cursor: pointer;
+}
+
+nav img {
+    height: 50px;
+    width: 170px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.nav-item {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    font-family: serif;
+}
+
+.nav-item a:hover {
+    background-color: #ECF6FE;
+    color: black;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.nav-item a {
+    color: #381664;
+    font-size: 30px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    font-family: Syne;
+}
+
+h1 {
+    color: #381664;
+    font-family: Syne;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.body-main img {
+    border-radius: 25px;
+    height: 94vh;
+    width: 90vw;
+    margin-left: 67px;
+}
+
+hr {
+    width: 95%;
+    border: 0.1px solid gray;
+    border-radius: 3px;
+}
+
+.body-content {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+.body-content h2 {
+    color: #381664;
+    font-family: Familjen Grotesk;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.body-content p {
+    color: #381664;
+    font-family: Familjen Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.body-content img {
+    width: 27vw;
+    margin-top: 35px;
+    padding: 0px;
+    border: 1.5px solid #440A8F;
+    margin-right: 60px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.about-me {
+    color: #381664;
+    margin-left: 80px;
+    font-family: Syne;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+}
+
+.about-details {
+    color: white;
+    display: flex;
+    margin-right: 120px;
+    gap: 48px;
+    padding: 30px;
+}
+
+.detail-title p {
+    font-family: Familjen Grotesk;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #381664;
+    margin-right: 200px;
+}
+
+.more-about {
+    color: #381664;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.more-about h2 {
+    font-family: Syne;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #381664;
+}
+
+.more-about p {
+    font-family: Familjen Grotesk;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #381664;
+}
+
+.more-about button {
+    width: 208px;
+    height: 48px;
+    padding: 12px 24px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 1;
+    background-color: #440A8F;
+    color: white;
+    font-family: Space Mono
+}
+
+.more-about button:hover {
+    border: 2px solid lightslategray;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.imgx img {
+    width: 1344px;
+    height: 756px;
+    gap: 0px;
+    border: 1px solid #440A8F;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.hr2 {
+    border: 1px solid #440A8F;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.para p {
+    font-family: Syne;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.text p {
+    font-family: Familjen Grotesk;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.what {
+    font-family: Syne;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #381664;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-family: Familjen Grotesk;
+    color: #381664;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 80px;
+    background-color: #381664;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.review {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    border: 1.5px solid #440A8F;
+    padding: 20px;
+    width: 380px;
+    height: 340px;
+    text-align: center;
+    margin-left:10px ;
+}
+
+.review:hover{
+    height: 360px;
+    cursor: pointer;
+    background-color: #381664;
+    color: #ECF6FE;
+    transition: background-color 1s;
+    overflow: scroll;
+    transform: scale(1.1);
+    transition: 0.9s;
+    scroll-margin: 7px;
+    
+}
+
+
+
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 1.5px solid #440A8F;
+}
+
+.profile p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.review-text {
+    font-family: Familjen Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.display {
+    display: flex;
+}
+
+.display p {
+    font: 1.5em sans-serif;
+}
+
+.description {
+    color: white;
+}
+
+.description img {
+    height: 94vh;
+    width: 87vw;
+    margin-left: 100px;
+    border: 1.5px solid #440A8F;
+}
+
+.hr1 {
+    border: 1px solid #440A8F;
+    margin-bottom: 180px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: syne;
+    color: #381664;
+}
+
+footer button {
+    background-color: #ECF6FE;
+    width: 180px;
+    height: 60px;
+    padding: 12px 24px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px solid #381664;
+    opacity: 1;
+    cursor: pointer;
+    
+}
+
+.contact {
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #381664;
+    align-content: center;
+}
+
+.contact:hover{
+    background-color: #381664;
+    color: #ECF6FE;
+    transition: background-color 2s;
+    transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .body-content div {
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+    }
+
+    .review {
+        flex: 1 1 calc(45% - 1rem);
+        max-width: calc(45% - 1rem);
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav .nav-item a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .body-content div {
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100% - 1rem);
+    }
+
+    .review {
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100% - 1rem);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 1rem;
+    }
+
+    nav .nav-item a {
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        width: 100%;
+    }
+} 
+
+
